@@ -1,0 +1,32 @@
+# If all parameters are in False, randomly team will be generate
+#
+#
+# excluded parameters: same_type & only_type & optimum
+#
+#
+# return an optimum team (6 pokemons) for win against the maximum types of pokemon
+optimum=True
+# generate a team from criteria
+# each pokemon of the team must have a predefine type (and may have a second type with this predefine type)
+only_type=False
+# allow (True) or deny (False) same type in your team
+same_type=True
+#
+#
+# return a team of 5 pokemons based on the type of your selected pokemon
+pokemon=Flambino
+# return many team (maximum 10, False if you don't want this parameter)
+multi_team=True
+# ban list if you don't want specific pokemons (seperate pokemon with ';' character, False if you don't want this parameter)
+ban=False
+# allow (True) or deny (False) legendary pokemons
+leg=True
+# select pokemon from a specific generation (from 1 to 8, False if you don't want this parameter, seperate generation with ';' character)
+only_gen=False
+# select pokemon from sword (epee), shield (bouclier) or both
+version=both
+# evolution only
+evolve=False
+# TODO in the future
+# par la suite prendre en compte les talents
+# prendre en compte les tiers d'usage
